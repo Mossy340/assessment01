@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- Meta tags -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<title>My Business</title>
+
+		<!-- Tab info -->
+		<title>Apex Auto Care</title>
+
+		<!-- Link to css -->
+		<link rel="stylesheet" href="css/styles.css">
 	</head>
 
 	<body>
@@ -30,44 +36,37 @@
 		<h3>Email</h3>
 		<p>info@apexautocare.ie</p>
 
-		<!-- Opening hours table -->
-		<h2>Opening hours</h2>
-		<table>
-		    <thead>
-		        <tr>
-		            <th>Day</th>
-		            <th>Hours</th>
-		        </tr>
-		    </thead>
-		    <tbody>
-		        <tr>
-		            <td>Monday</td>
-		            <td>08:00 - 18:00</td>
-		        </tr>
-		        <tr>
-		            <td>Tuesday</td>
-		            <td>08:00 - 18:00</td>
-		        </tr>
-		        <tr>
-		            <td>Wednesday</td>
-		            <td>08:00 - 18:00</td>
-		        </tr>
-		        <tr>
-		            <td>Thursday</td>
-		            <td>08:00 - 18:00</td>
-		        </tr>
-		        <tr>
-		            <td>Friday</td>
-		            <td>08:00 - 18:00</td>
-		        </tr>
-		        <tr>
-		            <td>Saturday</td>
-		            <td>09:00 - 14:00</td>
-		        </tr>
-		        <tr>
-		            <td>Sunday</td>
-		            <td>Closed</td>
-		        </tr>
-		    </tbody>
-		</table>
+		<!-- Contact form -->
+		<h2>Contact us</h2>
+		<form action="#" method="post">
+			<p>
+				<label for="name">Name</label><br>
+				<input type="text" id="name" name="name" required>
+			</p>
+			<p>
+				<label for="email">Email</label><br>
+				<input type="email" id="email" name="email" required>
+			</p>
+			<p>
+				<label for="phone">Phone</label><br>
+				<input type="tel" id="phone" name="phone">
+			</p>
+			<p>
+				<label for="reason">Reason for contact</label><br>
+				<select id="reason" name="reason">
+					<option value="">Please choose...</option>
+					<option value="booking">Book a service</option>
+					<option value="quote">Request a quote</option>
+					<option value="general">General enquiry</option>
+				</select>
+			</p>
+			<p>
+				<label for="message">Message</label><br>
+				<textarea id="message" name="message" rows="4" required></textarea>
+			</p>
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+		</form>
+
 	</body>

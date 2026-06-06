@@ -1,0 +1,41 @@
+/* Basic page styling */
+body { font-family: Arial, sans-serif;
+	background-color: lightgrey;
+	color: black;
+	margin: 20px;
+	padding: 10px; }
+
+/* Navigation bar */
+nav { background-color: #1f3a5f; padding: 12px;}
+
+nav a { color: white; margin-right: 15px; text-decoration: none; }
+
+/* Headings */
+h1 { color: #1f3a5f; font-size: 36px; }
+
+h2 { color: #1f3a5f; font-size: 26px; }
+
+h3 { color: #1f3a5f; font-size: 20px; }
+
+/* Paragraphs and lists */
+p { font-size: 16px; line-height: 1.5; }
+
+li { font-size: 16px; line-height: 1.5; }
+
+/* Table styling */
+table { border-collapse: collapse; }
+
+th, td { border: 1px solid grey; padding: 8px; }
+
+th { background-color: #1f3a5f; color: lightgrey; }
+
+/* Contact form fields */
+input, select, textarea { padding: 8px;
+	border: 1px solid grey;
+	margin-bottom: 10px; }
+
+/* Submit button */
+button { background-color: #1f3a5f;
+	color: white;
+	padding: 10px;
+	border: 1px solid #1f3a5f; }
